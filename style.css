@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+:root{
+    --yellow : rgb(246, 233, 107);
+    --green: rgb(190, 220, 116);
+    --dgreen: rgb(162, 202, 113);
+    --ddgreen:rgb(56, 127, 57);
+}
+body{
+    color: black;
+    font-family:"New Amsterdam";
+    background-color: var(--ddgreen);
+    text-align: center;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container{
+  background-color: var(--dgreen);
+  min-height: 80%;
+  min-width: 50%;
+  border-radius: 10px;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+}
+.btn{
+    background-color: var(--green);
+    border: none;
+    height: 5vh;
+    width: 10vw;
+
+    margin: 1vh 0;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: var(--yellow);
+}
