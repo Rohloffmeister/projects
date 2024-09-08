@@ -1,49 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
-:root{
-    --yellow : rgb(246, 233, 107);
+
+:root {
+    --yellow: rgb(246, 233, 107);
     --green: rgb(190, 220, 116);
     --dgreen: rgb(162, 202, 113);
-    --ddgreen:rgb(56, 127, 57);
+    --ddgreen: rgb(56, 127, 57);
 }
-body{
+
+body {
     color: black;
-    font-family:"New Amsterdam";
+    font-family: "New Amsterdam";
     background-color: var(--ddgreen);
     text-align: center;
 
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-}
-.container{
-  background-color: var(--dgreen);
-  min-height: 80%;
-  min-width: 50%;
-  border-radius: 10px;
 
 }
-.links{
+
+.container {
+    margin-top: 5%;
+    background-color: var(--dgreen);
+    border-radius: 10px;
+    width: 40%;
+    min-height: 550px;
+    min-width: 300px;
+}
+
+.links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+    margin-bottom: 1vh;
     width: 100%;
+
 }
-.btn{
+
+a {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
     background-color: var(--green);
     border: none;
     height: 5vh;
-    width: 10vw;
-
+    width: 40%;
+    max-width: 90%;
+    min-width: 100px;
+    min-height: 50px;
     margin: 1vh 0;
     border-radius: 5px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: var(--yellow);
 }
