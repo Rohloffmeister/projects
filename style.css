@@ -14,6 +14,11 @@ body {
     text-align: center;
 
 }
+#rep-link{
+    left:10px;
+    bottom: 10px;
+    position: absolute;
+}
 
 main {
     display: flex;
@@ -43,6 +48,12 @@ main {
     width: 100%;
 
 }
+.link-container{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
 
 a {
     width: 100%;
@@ -53,9 +64,7 @@ a {
     background-color: var(--green);
     border: none;
     height: 5vh;
-    width: 40%;
-    max-width: 90%;
-    min-width: 100px;
+    width: 90%;
     min-height: 50px;
     margin: 1vh 0;
     border-radius: 5px;
@@ -63,4 +72,22 @@ a {
 
 .btn:hover {
     background-color: var(--yellow);
+}
+img{
+    height: 60%;
+}
+@media (max-width: 1300px) {
+    .link-container{
+        width: 80%;
+    }
+    .link-container{
+
+        grid-template-columns: 4fr 1fr;
+    
+    }
+}
+@media (max-width: 900px) {
+    .container{
+        width: 90%;
+    }
 }
