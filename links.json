@@ -83,4 +83,12 @@
             "githubrepo": "https://github.com/Rohloffmeister/tip-calculator-app"
         }
     }
+    ,
+    {
+        "title": "Password Generator App",
+        "links": {
+            "livepage": "https://rohloffmeister.github.io/password-generator-app/",
+            "githubrepo": "https://github.com/Rohloffmeister/password-generator-app"
+        }
+    }
 ]
