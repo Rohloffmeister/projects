@@ -4,7 +4,9 @@
         "links": {
             "livepage": "https://rohloffmeister.github.io/Social-Links-Profile/",
             "githubrepo": "https://github.com/Rohloffmeister/Social-Links-Profile"
-        }
+        },
+        "backgroundcolor":"red"
+        
     },
     {
         "title": "Recipe Page",

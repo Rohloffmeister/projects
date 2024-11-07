@@ -20,7 +20,7 @@ function FillLinks(data) {
             <a
               href="`+ element["links"]["livepage"] + `"
               target="_blank"
-              ><button class="btn">`+ element["title"] +`</button></a
+              ><button style="background-color:`+ element["backgroundcolor"]+`;" class="btn">`+ element["title"] +`</button></a
             ><a
               href="`+ element["links"]["githubrepo"] + `"
               target="_blank"
