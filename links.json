@@ -93,4 +93,12 @@
             "githubrepo": "https://github.com/Rohloffmeister/password-generator-app"
         }
     }
+        ,
+    {
+        "title": "Frontend Quit App",
+        "links": {
+            "livepage": "https://rohloffmeister.github.io/frontend-quiz-app/",
+            "githubrepo": "https://github.com/Rohloffmeister/frontend-quiz-app"
+        }
+    }
 ]
