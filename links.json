@@ -101,4 +101,12 @@
             "githubrepo": "https://github.com/Rohloffmeister/frontend-quiz-app"
         }
     }
+            ,
+    {
+        "title": "Interactive Rating Component",
+        "links": {
+            "livepage": "https://rohloffmeister.github.io/interactive-rating-component-main/",
+            "githubrepo": "https://github.com/Rohloffmeister/interactive-rating-component-main"
+        }
+    }
 ]
