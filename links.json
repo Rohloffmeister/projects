@@ -109,4 +109,12 @@
             "githubrepo": "https://github.com/Rohloffmeister/interactive-rating-component-main"
         }
     }
+                ,
+    {
+        "title": "FAQ Accordion",
+        "links": {
+            "livepage": "rohloffmeister.github.io/faq-accordion/",
+            "githubrepo": "https://github.com/Rohloffmeister/faq-accordion"
+        }
+    }
 ]
