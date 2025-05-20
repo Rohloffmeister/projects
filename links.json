@@ -5,7 +5,6 @@
             "livepage": "https://rohloffmeister.github.io/Social-Links-Profile/",
             "githubrepo": "https://github.com/Rohloffmeister/Social-Links-Profile"
         },
-        "backgroundcolor":"red"
         
     },
     {
@@ -115,6 +114,20 @@
         "links": {
             "livepage": "https://rohloffmeister.github.io/faq-accordion/",
             "githubrepo": "https://github.com/Rohloffmeister/faq-accordion"
+        }
+    },
+            {
+        "title": "Contact Form Accessibility",
+        "links": {
+            "livepage": "https://rohloffmeister.github.io/Contact-Form-Accessibility/",
+            "githubrepo": "https://github.com/Rohloffmeister/Contact-Form-Accessibility"
+        }
+    },
+        {
+        "title": "NFT Preview Card",
+        "links": {
+            "livepage": "https://rohloffmeister.github.io/NFT-Preview-Card/",
+            "githubrepo": "https://github.com/Rohloffmeister/NFT-Preview-Card"
         }
     }
 ]
